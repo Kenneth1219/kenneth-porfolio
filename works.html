@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kenneth's Porfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/256a0a77a7.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main
+      class="h-screen w-full p-4 flex flex-row gap-x-4"
+      style="background-image: url('./images/bg.svg'); background-size: cover">
+      <aside class="h-full w-[30%] bg-white bg-opacity-50 rounded-2xl">
+        <div class="w-full flex justify-center">
+          <img
+            src="./images/profile.png"
+            alt=""
+            class="h-[100px] w-[100px] rounded-full m-6"/>
+        </div>
+
+        <div class="w-full flex flex-col gap-y-1 pl-4">
+          <a href="aboutme.html"><p>About Me</p></a>
+          <a href="contact.html"><p>Contact details</p></a>
+          <a href="education.html"><p>Education Background</p></a>
+          <a href="experience.html"><p>Experience</p></a>
+          <a href="skills.html"><p>Skills</p></a>
+          <a href="techstack.html"><p>Tech stacks/Languages</p></a>
+          <a href="works.html" class="active"><p>Works/Projects</p></a>
+          <a href="awards.html"><p>Achievements & Certificates</p></a>
+        </div>
+      </aside>
+
+      <div
+        class="w-full h-full bg-white bg-opacity-50 rounded-2xl p-6 overflow-scroll">
+        <div class="w-full bg-[#132e65] p-4 rounded-2xl text-center">
+          <h1 class="text-white text-[30px]">Works/Projects</h1>
+        </div>
+        <div
+          class="w-full mt-4 gap-y-6 pl-6 "
+          style="display: grid; grid-template-columns: 30% 30% 30%">
+
+          <div class=" border border-black rounded-2xl text-center p-6 flex flex-col gap-y-6">
+            <h1 class="">Chat app</h1>
+            <img src="./images/projects/chatapp.png" />
+            <a href="https://chat-app-mauve-iota.vercel.app/" target="_blank">
+                <button class="bg-[#132e65] w-[50%] rounded-2xl text-white p-2 ">View</button></a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

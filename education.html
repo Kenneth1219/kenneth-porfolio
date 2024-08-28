@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kenneth's Porfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/256a0a77a7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main
+      class="h-screen w-full p-4 flex flex-row gap-x-4"
+      style="background-image: url('./images/bg.svg'); background-size: cover"
+    >
+      <aside class="h-full w-[30%] bg-white bg-opacity-50 rounded-2xl">
+        <div class="w-full flex justify-center">
+          <img
+            src="./images/profile.png"
+            alt=""
+            class="h-[100px] w-[100px] rounded-full m-6"
+          />
+        </div>
+
+        <div class="w-full flex flex-col gap-y-1 pl-4">
+          <a href="aboutme.html"><p>About Me</p></a>
+          <a href="contact.html"><p>Contact details</p></a>
+          <a href="education.html" class="active"><p>Education Background</p></a>
+          <a href="experience.html"><p>Experience</p></a>
+          <a href="skills.html"><p>Skills</p></a>
+          <a href="techstack.html"><p>Tech stacks/Languages</p></a>
+          <a href="works.html"><p>Works/Projects</p></a>
+          <a href="awards.html"><p>Achievements & Certificates</p></a>
+        </div>
+      </aside>
+
+      <div class="w-full h-full bg-white bg-opacity-50 rounded-2xl p-4 overflow-scroll ">
+        <div class="w-full bg-[#132e65] p-4 rounded-2xl text-center">
+          <h1 class="text-white text-[30px]">Education Background</h1>
+        </div>
+        <div class="w-full mt-4 gap-y-3 pl-6 flex flex-col ">
+          <li class="text-[40px]">College</li>
+          <h3 class="text-[20px]">- College of Mary Immaculate (2021-2025)</h3>
+          <h3 class="text-[20px]">- Bachelor of Science in Computer Science (BSCS)</h3>
+
+          <li class="text-[40px]">Senior High School (SHS)</li>
+          <h3 class="text-[20px]">- College of Mary Immaculate (2019-2021)</h3>
+          <h3 class="text-[20px]">- Humanities and Social Sciences (HUMSS)</h3>
+
+          <li class="text-[40px]">High School</li>
+          <h3 class="text-[20px]">- Christian Academy of Pandi (2017-2019)</h3>
+          <h3 class="text-[20px]">- Manuel G. Santos Memorial School (2015-2017)</h3>
+
+          <li class="text-[40px]">Elementary</li>
+          <h3 class="text-[20px]">- Mamerto C. Bernardo Memorial Central School (2009-2015)</h3>
+
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
